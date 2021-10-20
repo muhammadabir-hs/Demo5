@@ -1,0 +1,172 @@
+/*common css starts*/
+body{
+	font-family: sans-serif;
+}
+/*common css ends*/
+
+
+/*header starts*/
+header{
+	/*border: 1px solid black;*/
+	padding: 15px 0;
+}
+
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	float: left;
+	width: 10%;
+	/*border: 1px solid black;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	margin-top: 2px;
+	float: right;
+	width: 45%;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+} 
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+
+	text-decoration: none;
+    color: #0F2656;
+    padding: 0px 25px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header ends*/
+
+
+/*banner starts*/
+.banner {
+	margin-bottom: 72px;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 60%;
+}
+
+.b_content {
+	text-align: center;
+}
+
+.b_h1 {
+	margin: 15px 0;
+	font-size: 65px;
+	color: #0F2656;
+}
+.b_span{
+	color: #008AFF;
+}
+
+.b_text {
+	margin: 0;
+	color: #0F2656;
+}
+
+.b_image {
+}
+/*banner ends*/
+
+
+
+/*succes starts*/
+
+.succes {}
+
+.s_content {
+}
+
+.s_left {
+    width: 43%;
+    float: left;
+    text-align: right;
+    padding: 0px 26px 0px 34px;
+}
+.s_left h2{
+	font-size: 50px;
+    font-weight: -3px;
+    color: #F15767;
+    margin: 46px 0px 0px 0px;
+}
+.s_left p{
+	font-size: 17px;
+}
+
+.s_right {
+    width: 47%;
+    float: right;
+    padding: 0px 25px 0px 1px;
+}
+.s_right h1{
+	font-size: 52px;
+    color: #0F2656;
+}
+/*success ends*/
+
+
+
+/*service starts*/
+.service {
+	margin-top: 30px;
+}
+
+.wrapper {
+}
+
+.s_wrapper {
+	overflow: hidden;
+}
+
+.s_single {
+	width: 26.5%;
+    padding: 65px 20px;
+    background-color: #FDEBED;
+    float: left;
+    margin: 26px;
+}
+#s_single2 {
+	background-color: #EBF9F4;
+}
+#s_single3 {
+	background-color: #FFF7E8;
+}
+
+.s_image {
+}
+.s_image img{
+
+}
+
+.s_h2 {
+	color: #0F2656;
+    font-size: 20px;
+}
+
+.s_text {
+	color: #0F2656;
+    line-height: 25px;
+}
+.s_image img{
+	width: 100%;
+}
+/*service ends*/
